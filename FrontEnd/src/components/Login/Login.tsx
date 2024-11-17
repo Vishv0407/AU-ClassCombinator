@@ -53,7 +53,9 @@ export default function Login() {
 			<h1 className="title">Class Combinator</h1>
 
 			<div className="sub-title">
-				<strong>Registration ahead? </strong>
+				<span>
+					<strong>Winter 2025</strong> Registration ahead?
+				</span>
 				<span>Class Combinator is here to help you out!</span>
 			</div>
 			<GoogleOAuthProvider clientId="51730502551-mkkokhpvqbutmqbjsfifnhcdvghe8va9.apps.googleusercontent.com">
@@ -104,21 +106,13 @@ export default function Login() {
 			{isBanned && <Navigate to="/Banned" />}
 			{/* {<Navigate to="/Home" />} */}
 			<div className="footer">
-				<span className="note">
-					<b>Note: </b>
-					Due to other commitments, lack of time and resources, this
-					project is <u>no longer maintained</u>. Apologies for the
-					same.
-				</span>
-				<span>
-					Contribute to this project on&nbsp;
-					<a
-						target="_"
-						href="https://github.com/JeelRajodiya/AU-ClassCombinator"
-					>
-						Github
-					</a>
-				</span>
+				Contribute to this project on&nbsp;
+				<a
+					target="_"
+					href="https://github.com/JeelRajodiya/AU-ClassCombinator"
+				>
+					Github
+				</a>
 			</div>
 		</div>
 	);
